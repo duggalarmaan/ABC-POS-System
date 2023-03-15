@@ -1,0 +1,126 @@
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Web_Site_Project.Pages.ProcessSaleModel
+@{
+    ViewData["Title"] = "ProcessSale";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1 class="hdr-text">Enter the information below to Process a Sale</h1>
+
+    @if (Model.state1)
+    {
+        <form name="Employee" method="post">
+            <div>
+                <label asp-for="Process_Sale_Employee.SalespersonID" class="lbl-text">Salesperson ID:</label>
+                <input type="number" placeholder="Required" min="0" asp-for="Process_Sale_Employee.SalespersonID" required>
+
+                <label asp-for="Process_Sale_Customer.CustomerID" class="lbl-text">Customer ID:</label>
+                <input type="number" placeholder="Required" min="0" asp-for="Process_Sale_Customer.CustomerID" required>
+            </div>
+
+            <input type="submit" class="btn-expand" value="Submit" asp-page-handler="SubmitEmployee">
+        </form>
+    }
+
+    @if (Model.state2)
+    {
+        <form name="Choose Item" method="post">
+            <div>
+                <input type="hidden" asp-for="Process_Sale_Customer.CustomerID" required>
+                <input type="hidden" asp-for="Process_Sale_Employee.SalespersonID" required>
+
+                <label asp-for="Process_Sale_Item.ItemCode">Enter Item:</label>
+
+                <input type="text" placeholder="Required" asp-for="Process_Sale_Item.ItemCode" maxlength="6" required>
+
+            </div>
+
+            <input type="submit" class="btn-expand" value="Get Item" asp-page-handler="SubmitItem">
+
+        </form>
+
+        <table style="border: 1px solid">
+            <tr>
+                <th style="border: 1px solid">Item Code</th>
+                <th style="border: 1px solid">Description</th>
+                <th style="border: 1px solid">Unit Price</th>
+                <th style="border: 1px solid">Stock</th>
+            </tr>
+
+            <tr>
+                <td style="border: 1px solid">@Model.Process_Sale_Item.ItemCode</td>
+                <td style="border: 1px solid">@Model.Process_Sale_Item.Description</td>
+                <td style="border: 1px solid">@Model.Process_Sale_Item.UnitPrice</td>
+                <td style="border: 1px solid">@Model.Process_Sale_Item.QauntityInStock</td>
+            </tr>
+
+        </table>
+    }
+
+    @if (Model.state3)
+    {
+
+        <form name="Item Info" method="post">
+            <div>
+                <input type="hidden" asp-for="Process_Sale_Item.ItemCode" required>
+                <input type="hidden" asp-for="Process_Sale_Customer.CustomerID" required>
+                <input type="hidden" asp-for="Process_Sale_Employee.SalespersonID" required>
+
+                <label asp-for="Process_Sale_CustomerCart.Quantity" class="lbl-text">Purchase Quantity:</label>
+                <input type="number" placeholder="Equal to or Less than Stock" min="0" max="@Model.Process_Sale_Item.QauntityInStock" value="0" asp-for="Process_Sale_CustomerCart.Quantity">
+            </div>
+
+            <input type="submit" class="btn-expand" value="Add to Cart" asp-page-handler="AddItem">
+            <input type="submit" class="btn-expand" value="Remove from Cart" asp-page-handler="RemoveItem">
+
+        </form>
+
+        <form name="Submit Info" method="post">
+
+            <input type="hidden" asp-for="Process_Sale_Customer.CustomerID" required>
+            <input type="hidden" asp-for="Process_Sale_Employee.SalespersonID" required>
+
+            <h3>Your Cart</h3>
+
+            <table style="border: 1px solid">
+                <tr>
+                    <th style="border: 1px solid">Item Code</th>
+                    <th style="border: 1px solid">Qauntity</th>
+                    <th style="border: 1px solid">Item Total</th>
+                </tr>
+                @foreach (var item in Model.Process_Sale_CustomerCart_List)
+                {
+                    <tr>
+                        <td style="border: 1px solid">@item.ItemCode</td>
+                        <td style="border: 1px solid">@item.Quantity</td>
+                        <td style="border: 1px solid">@item.ItemTotal</td>
+                    </tr>
+                }
+            </table>
+
+            <label asp-for="Process_Sale.SubTotal">Sub Total:</label>
+
+            <input type="text" asp-for="Process_Sale.SubTotal" readonly>
+
+            <label asp-for="Process_Sale.GST">GST:</label>
+
+            <input type="text" asp-for="Process_Sale.GST" readonly>
+
+            <label asp-for="Process_Sale.SaleTotal">SaleTotal:</label>
+
+            <input type="text" asp-for="Process_Sale.SaleTotal" readonly>
+
+            <input type="submit" class="btn-expand" value="ProcessSale" asp-page-handler="SubmitSale">
+
+        </form>
+    }
+
+    <br />
+    <h3 class="imp-message"><b>@Html.Raw(Model.Message)</b></h3>
+</body>
+</html>

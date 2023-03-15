@@ -1,0 +1,45 @@
+﻿@page
+@model Web_Site_Project.Pages.UpdateItemModel
+@{
+    ViewData["Title"] = "UpdateItem";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />   
+</head>
+<body>
+    <h1 class="hdr-text">Enter the information below to Update a Item</h1>
+    @if (Model.state)
+    {
+        <form name="GetItems" method="post">
+            <label asp-for="New_Item.ItemCode" class="lbl-text">Item Code:</label>
+            <input type="text" placeholder="Required" asp-for="New_Item.ItemCode" required>
+            <br />
+            <input type="submit" class="btn-expand" value="Submit" asp-page-handler="GetItem">
+        </form>
+
+    }
+    else
+    {
+        <form name="UpdateItem" method="post">
+            <div>
+                <input type="hidden" asp-for="New_Item.ItemCode">
+
+                <label asp-for="New_Item.Description" class="lbl-text">Description:</label>
+                <input type="text" placeholder="Required" asp-for="New_Item.Description" required>
+                <br />
+                <label asp-for="New_Item.UnitPrice" class="lbl-text">UnitPrice:</label>
+                <input type="text" placeholder="Required" asp-for="New_Item.UnitPrice" required>
+                <br />
+                <label asp-for="New_Item.QauntityInStock" class="lbl-text">QauntityInStock:</label>
+                <input type="text" placeholder="Required" asp-for="New_Item.QauntityInStock" required>
+            </div>
+
+            <input type="submit" class="btn-expand" value="Submit" asp-page-handler="UpdateItem">
+        </form>
+    }
+    <br />
+    <h3 class="imp-message"><b>@Html.Raw(Model.Message)</b></h3>
+</body>
+</html>

@@ -1,0 +1,53 @@
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\appsettings.Development.json
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\appsettings.json
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.exe
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.deps.json
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.runtimeconfig.json
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.runtimeconfig.dev.json
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\ref\Web Site Project.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.pdb
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.Views.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\Web Site Project.Views.pdb
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\System.Data.SqlClient.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\bin\Release\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.csproj.AssemblyReference.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.AssemblyInfoInputs.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.AssemblyInfo.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.csproj.CoreCompileInputs.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.RazorAssemblyInfo.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.RazorAssemblyInfo.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\staticwebassets\Web Site Project.StaticWebAssets.Manifest.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\staticwebassets\Web Site Project.StaticWebAssets.xml
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\scopedcss\bundle\Web Site Project.styles.css
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.TagHelpers.input.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.TagHelpers.output.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.RazorCoreGenerate.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\AddCustomer.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\AddItem.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\DeleteCustomer.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\DeleteItem.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\ProcessSale.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\UpdateCustomer.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\UpdateItem.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.RazorTargetAssemblyInfo.cache
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.RazorTargetAssemblyInfo.cs
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.Views.pdb
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.csproj.CopyComplete
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\ref\Web Site Project.dll
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.pdb
+C:\Users\Armaan Duggal\Documents\BAIS-3150-Software Development Tools\Web Site Project\obj\Release\net5.0\Web Site Project.genruntimeconfig.cache
