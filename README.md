@@ -4,7 +4,7 @@ This was a project created in the course BAIS3150 Software Development Tools at 
 To Run the project, you will need to go to appsetting.json and configure it with your database.
 
 
-#Assignment Requirements:
+ASSIGNMENT REQUIREMENT:
 
 Create a Web Site for ABC Hardware.
 The Web Site should include the following:
